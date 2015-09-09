@@ -1,0 +1,4 @@
+services:
+#    aw_animals.example:
+#        class: AW\AnimalsBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

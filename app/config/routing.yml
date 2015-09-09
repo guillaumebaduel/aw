@@ -1,0 +1,12 @@
+aw_animals:
+    resource: "@AWAnimalsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+rest: 
+    type : rest 
+    resource : "routing_rest.yml"
+    prefix : /api
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

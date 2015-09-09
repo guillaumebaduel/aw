@@ -1,0 +1,9 @@
+animals: 
+    type: rest
+    resource:     "AWAnimalsBundle:Animal"
+    name_prefix:  api_
+
+favourites: 
+    type: rest
+    resource:     "AWAnimalsBundle:Favourite"
+    name_prefix:  api_
